@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title description">
+  <title id="title">QWERTY luxury sports car</title>
+  <desc id="description">A sleek silver sports car on a dark road at sunset.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset=".55" stop-color="#482f46"/>
+      <stop offset="1" stop-color="#f19b50"/>
+    </linearGradient>
+    <linearGradient id="road" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#30333c"/>
+      <stop offset="1" stop-color="#101114"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#fff"/>
+      <stop offset=".32" stop-color="#cfd6df"/>
+      <stop offset=".72" stop-color="#737e8b"/>
+      <stop offset="1" stop-color="#333a45"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#93b9ce"/>
+      <stop offset=".55" stop-color="#263848"/>
+      <stop offset="1" stop-color="#111923"/>
+    </linearGradient>
+    <radialGradient id="sun">
+      <stop stop-color="#ffd59b" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#f19b50" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="700" fill="url(#sky)"/>
+  <circle cx="875" cy="275" r="205" fill="url(#sun)"/>
+  <circle cx="875" cy="275" r="82" fill="#ffd7a2" opacity=".8"/>
+  <path d="M0 415 140 315l105 88 150-138 155 150 138-122 150 145 146-112 216 122v108H0Z" fill="#202431" opacity=".74"/>
+  <path d="M0 470 190 400l135 65 190-93 155 91 175-72 160 66 195-84v128H0Z" fill="#171a22"/>
+  <path d="M0 493h1200v207H0z" fill="url(#road)"/>
+  <path d="M0 530h1200" stroke="#f6b766" stroke-opacity=".24" stroke-width="2"/>
+  <path d="m520 700 88-170h12l-43 170m316 0-98-170h13l154 170" fill="#f3c27b" opacity=".22"/>
+  <ellipse cx="610" cy="574" rx="390" ry="38" fill="#ffb964" opacity=".18" filter="url(#glow)"/>
+
+  <g>
+    <path d="M174 492c20-33 68-53 137-66l112-95c38-33 78-49 140-53l157-7c61-2 104 18 153 65l99 59c50 11 82 35 93 76l-7 38-79 13H272l-89-17Z" fill="url(#body)" stroke="#f5f7fb" stroke-opacity=".7" stroke-width="3"/>
+    <path d="m455 350 83-61c23-17 46-25 84-27l93-3-7 113-285 1Z" fill="url(#glass)" stroke="#dbe4ec" stroke-opacity=".7" stroke-width="3"/>
+    <path d="m735 259 54 4c43 3 75 28 111 64l47 44-218 1Z" fill="url(#glass)" stroke="#dbe4ec" stroke-opacity=".7" stroke-width="3"/>
+    <path d="m720 267-9 131m-180-137 4 136" fill="none" stroke="#eef3f8" stroke-opacity=".72" stroke-width="4"/>
+    <path d="m210 471 112-28m603 12 118 18" fill="none" stroke="#fff" stroke-opacity=".5" stroke-width="5"/>
+    <path d="M188 488c44-21 75-25 119-25m775 12c-29-14-61-20-94-20" fill="none" stroke="#171a20" stroke-width="9"/>
+    <path d="m194 489 102 2-17 17-92-4Z" fill="#fff1d2"/>
+    <path d="m1071 482 35 13-6 15-52-5Z" fill="#f6504f"/>
+    <path d="M449 407h380" stroke="#222831" stroke-opacity=".72" stroke-width="4"/>
+    <path d="m607 414-8 64m193-64 4 64" stroke="#4a525c" stroke-width="3"/>
+    <path d="m293 465 79-2m598 0 78 7" stroke="#e9edf1" stroke-opacity=".65" stroke-width="3"/>
+    <path d="M475 481h81m331 0h79" stroke="#20252c" stroke-width="5" stroke-linecap="round"/>
+
+    <g>
+      <circle cx="390" cy="500" r="67" fill="#0b0c0f"/>
+      <circle cx="390" cy="500" r="44" fill="#7e8792"/>
+      <circle cx="390" cy="500" r="34" fill="#20252d"/>
+      <circle cx="390" cy="500" r="10" fill="#dbe0e6"/>
+      <path d="M390 466v24m0 20v24m34-34h-24m-20 0h-24m34-34 17 17m-34 34-17 17m58 0-17-17m-34-34-17-17" stroke="#cbd2da" stroke-width="5"/>
+    </g>
+    <g>
+      <circle cx="925" cy="500" r="67" fill="#0b0c0f"/>
+      <circle cx="925" cy="500" r="44" fill="#7e8792"/>
+      <circle cx="925" cy="500" r="34" fill="#20252d"/>
+      <circle cx="925" cy="500" r="10" fill="#dbe0e6"/>
+      <path d="M925 466v24m0 20v24m34-34h-24m-20 0h-24m34-34 17 17m-34 34-17 17m58 0-17-17m-34-34-17-17" stroke="#cbd2da" stroke-width="5"/>
+    </g>
+  </g>
+  <text x="64" y="92" fill="#fff" font-family="Arial, sans-serif" font-size="24" letter-spacing="8" opacity=".88">QWERTY  /  AUTOMOTIVE</text>
+</svg>
