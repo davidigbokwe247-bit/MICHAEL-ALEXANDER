@@ -164,7 +164,7 @@ footer {
     text-align: center;
 }
 
-/* @media (max-width: 700px) {
+@media (max-width: 700px) {
     .site-header {
         align-items: flex-start;
         flex-direction: column;
@@ -191,4 +191,58 @@ footer {
     .car-card img {
         height: 240px;
     }
-} */
+} 
+
+
+.contact {
+    background: #07182D;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.contact h2 {
+    color: #C0C9D4;
+    font-size: 30px;
+}
+
+.contact form {
+    max-width: 500px;
+    margin: 30px auto;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #C0C9D4;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.contact textarea {
+    height: 130px;
+}
+
+.contact button,
+.whatsapp {
+    display: inline-block;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.contact button {
+    background: #C0C9D4;
+    color: #07182D;
+}
+
+.whatsapp {
+    background: #25D366;
+}
+

@@ -71,6 +71,44 @@
         </section>
     </main>
 
+
+
+<section class="contact" id="contact">
+    <h2>CONTACT US</h2>
+    <p>Have an enquiry? Send us a message.</p>
+
+    <form onsubmit="sendWhatsApp(event)">
+        <input type="text" id="name"
+        placeholder="Your Name" required>
+
+        <textarea id="message"
+        placeholder="Your Message" required></textarea>
+
+        <button type="submit">
+            SEND MESSAGE
+        </button>
+    </form>
+</section>
+
+<script>
+function sendWhatsApp(event) {
+    event.preventDefault();
+
+    let name = document.getElementById("name").value;
+    let message = document.getElementById("message").value;
+
+    let phone = "234XXXXXXXXXX";
+
+    let text = "Hello! My name is " + name +
+               ". " + message;
+
+    let url = "https://wa.me/" + phone +
+              "?text=" + encodeURIComponent(text);
+
+    window.open(url, "_blank");
+}
+</script>
+
     <footer>
         <p>&copy; 2026 QWERTY. A luxury car showcase.</p>
         
